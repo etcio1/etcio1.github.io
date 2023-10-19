@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors!</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <p>Player 1:
+        <button id="rock1" data-tip="rock" onclick="choicePlayer1(this)">Rock</button>
+        <button id="paper1" data-tip="paper" onclick="choicePlayer1(this)">Paper</button>
+        <button id="scissors1" data-tip="scissors" onclick="choicePlayer1(this)">Scissors</button>
+    </p>
+    <p>Player 2:
+        <button id="rock2" data-tip="rock" disabled="true" onclick="choicePlayer2(this)">Rock</button>
+        <button id="paper2" data-tip="paper" disabled="true" onclick="choicePlayer2(this)">Paper</button>
+        <button id="scissors2" data-tip="scissors" disabled="true" onclick="choicePlayer2(this)">Scissors</button>
+    </p>
+</body>
+
+</html>
