@@ -32,26 +32,26 @@ function play() {
             result = "It's a draw!";
         else
             if (choicePlayer_2 == "paper")
-                result = "Player 2 win!";
+                result = "Player 2 wins!";
             else
-                result = "Player 1 win!";
+                result = "Player 1 wins!";
 
     else
         if (choicePlayer_1 == "paper") //user1 choose paper
             if (choicePlayer_2 == "rock")
-                result = "Player 1 win!";
+                result = "Player 1 wins!";
             else
                 if (choicePlayer_2 == "paper")
                     result = "It's a draw!";
                 else
-                    result = "Player 2 win!";
+                    result = "Player 2 wins!";
 
         else  //user1 choose scissors
             if (choicePlayer_2 == "rock")
-                result = "Player 2 win!";
+                result = "Player 2 wins!";
             else
                 if (choicePlayer_2 == "paper")
-                    result = "Player 1 win!";
+                    result = "Player 1 wins!";
                 else
                     result = "It's a draw!";
 
